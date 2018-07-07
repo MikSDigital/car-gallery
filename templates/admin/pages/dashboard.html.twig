@@ -13,7 +13,6 @@
     
 {% endblock stylesheets %}
 
-{% block top_content_header %}{% endblock top_content_header%}
 
 {% block page_content %}
           <!-- top tiles -->
@@ -709,11 +708,9 @@
 
 {% endblock %}
 
-
 {% block javascripts %}
     
     {{ parent() }}
-
 
     <!-- Chart.js -->
     <script src="{{ asset('assets/vendors/Chart.js/dist/Chart.min.js') }}"></script>
